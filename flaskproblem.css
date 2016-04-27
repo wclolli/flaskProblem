@@ -1,0 +1,58 @@
+p {
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+label {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+img{
+    width: 160px;
+    margin-left: 50px;
+}
+
+input{
+    margin-left: 30px;
+
+}
+
+#flaskOne{
+    margin-left: 95px;
+    
+}
+
+#flaskTwo{
+    margin-left: 100px;
+}
+
+.left{
+    float: left;
+    margin-right: 40px;
+}
+.right{
+    float: left;
+}
+
+#answerC {
+    font-size: 18px;
+    margin-left: 88px;
+}
+
+#answerA {
+    font-size: 18px;
+    margin-left: 88px;
+}
+
+#answerB {
+    font-size: 18px;
+    margin-left: 88px;
+}
+
+#answerD {
+    font-size: 18px;
+    margin-left: 88px;
+}
+
+

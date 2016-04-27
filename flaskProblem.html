@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="flaskProblem.js"></script>
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-blue.css">
+        <link rel="stylesheet" type="text/css" href="flaskproblem.css">
+    </head>
+    
+    <body>
+        <div class="w3-container w3-theme-d3 w3-card-2">
+        <h1>Flask Problem</h1>
+        </div> <br>
+        
+        <div class="w3-container">
+            <div class = "left">
+                <img src ="flaskWithSeaweed.png" id = "flask1"/>
+                <h4 id = "flaskOne"> FLASK 1 </h4>
+            </div>
+            <div class = "right">
+                <img src ="flaskWithSeaweed.png" id = "flask2"/>
+                <h4 id = "flaskTwo"> FLASK 2 </h4>
+            </div>
+        </div>
+        
+        <p class = "w3-container">  Flasks 1 and 2 have identical setups--each flask consists of 100ml of water, 2 aquatic plants, and a drop of Bromothymol blue. Flask 1 is placed in a bright light for 24 hours. Flask 2 is placed in the dark for 24 hours. After 24 hours,  which of the following would be true?</p>
+        
+        <p class = "w3-container"> *Bromothymol blue is an indicator that changes color from blue to yellow as the level of CO2 in a solution increases</p>
+            
+        <form class = "w3-container">
+<!--            answer choice a-->
+            <input type = "radio" class = "w3-radio" name = "answer" id = "firstOption"/> 
+            <label id = "a"> a. Flask 1 and 2 would both be blue.  </label> <br>
+            <div id = "answerA"></div>
+
+<!--            answer choice b-->
+            <input type = "radio" class = "w3-radio" name = "answer" id = "secondOption"/> 
+            <label id = "b"> b. Flask 1 and 2 would both be yellow. </label> <br>
+            <div id = "answerB"></div>
+            
+<!--            answer choice c-->
+            <input type = "radio" class = "w3-radio" name = "answer" id = "thirdOption"/> 
+            <label id = "c"> c. Flask 1 would be blue and Flask 2 would be yellow. </label> <br>
+            <div id = "answerC"></div>
+            
+<!--            answer choice d-->
+            <input type = "radio" class = "w3-radio" name = "answer" id = "fourthOption"/> 
+            <label id = "d"> d. Flask 1 would be yellow and Flask 2 would be blue. </label> <br>
+            <div id = "answerD"></div> <br>
+            
+            <input type = "button" value="Submit" class="w3-btn w3-white w3-border w3-border-blue w3-round-xlarge w3-hover-blue" onclick = "submitButton()"/>
+        </form>
+        
+    </body>
+
+</html>
